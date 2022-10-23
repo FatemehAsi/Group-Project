@@ -179,9 +179,15 @@
   margin-top: 32px;
 }
 
-.info-section span a {
+.info-section span a:link,
+.info-section span a:visited{
   font-family: "Open Sans", "sans-serif";
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+}
+
+.info-section span a:hover,
+.info-section span a:active{
+  color: #ddd;
 }
