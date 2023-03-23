@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PART ONE : CONTENT */
+.content {
+  position: relative;
+  height: 100vh;
+  width: 1140px;
+  margin: 59px auto;
+}
+
+.content-heading {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 60px;
+  font-weight: 700;
+  margin: 59px 380px 0 0;
+}
+
+.feature-boxs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.feature-box {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border-radius: 24px;
+  margin: 38px auto 0 auto;
+}
+
+.feature-box-first img {
+  height: 400px;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.feature-box-content {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.icon {
+  height: 62px;
+  width: 62px;
+  margin-bottom: 20px;
+}
+
+.feature-box h4 {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.feature-box p {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.feature-box-second {
+  color: #fff;
+  background-color: #537459;
+}
+
+.feature-box-second .icon {
+  stroke: #fff;
+}
+
+.feature-box-third {
+  color: #111;
+  background-color: #e5e5e5;
+}
+
+.feature-box-third .icon {
+  stroke: #111;
+}
+
+.content-description {
+  position: absolute;
+  left: 10px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 760px;
+  color: #999;
+  margin: 47px 0 51px 380px;
+}
+
+/* PART TWO : INFO SECTION */
+.info-section {
+  height: 636px;
+  background: linear-gradient(
+      0deg,
+      rgba(41, 51, 43, 0.9),
+      rgba(41, 51, 43, 0.9)
+    ),
+    url("assets/img/computer-working.jpg") center/cover;
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info-section h2 {
+  font-family: "Roboto", "sans-serif";
+  font-size: 68px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  letter-spacing: 3px;
+}
+
+.info-section p {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn:link,
+.btn:visited {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.btn-learn:link,
+.btn-learn:visited {
+  background-color: #537459;
+}
+
+.btn-learn:hover,
+.btn-learn:active {
+  background-color: #4d6451;
+}
+
+.btn-live:link,
+.btn-live:visited {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn-live:hover,
+.btn-live:active {
+  color: #111;
+  background-color: #fff;
+}
+
+.info-section span {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.info-section span a:link,
+.info-section span a:visited{
+  font-family: "Open Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info-section span a:hover,
+.info-section span a:active{
+  color: #ddd;
+}
